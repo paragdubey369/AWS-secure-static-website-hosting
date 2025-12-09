@@ -6,7 +6,7 @@ Hosting a static website on s3 is standard , but securing it for the current sce
 This project demonstrates a secure, high-availability static website architecture hosted on AWS. Unlike standard S3 hosting, this solution implements a **Zero-Trust** security model using CloudFront Origin Access Control (OAC) and AWS WAF.
 
 ## 🏗 Architecture
-architecture.png(/workspaces/AWS-secure-static-website-hosting/architecture.png)
+![Architecture Diagram](architecture-diagram.png)
 
 ## Hosted a static website on s3
 1. uploaded required files on s3 as index.html,error.html,block.html. Also the content of the static website uploaded on the s3.
